@@ -1,0 +1,19 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "tiara.dev@proton.me"
+        "Name": "Tiara Hock"
+      }
+    ],
+    "Category": "",
+    "Description": "A simple on-demand cat text-emoji picker.",
+    "Icon": "cat",
+    "Id": "com.github.tiaranivani.catbar",
+    "Name": "CatBar",
+    "Version": "1",
+    "Website": "https://github.com/TiaraNivani/catbar"
+  },
+  "X-Plasma-API": "declarativeappletscript",
+  "KPackageStructure": "Plasma/Applet"
+}
