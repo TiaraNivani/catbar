@@ -1,7 +1,33 @@
-import QtQuick 2.0
-import QtQuick.Layouts 1.0
-import org.kde.plasma.components 2.0 as PlasmaComponents
+import QtQuick 6.0
+import org.kde.plasma.core 6.0 as PlasmaCore
 
-PlasmaComponents.Label {
-  text: "CatBar"
+Plasmoid {
+  id: catBar
+  width: parent.width
+  height: 200
+  visible: false
+
+  Behaviour on y {
+    enable: visible
+    NumberAnimation {
+      duration: 300
+      easing.type: easing.InOutQuad
+    }
+  }
+
+  y: visible ? 0: -height
+
+  // Keyboard component
+  Keyboard {
+    id: keyboard
+    anchors.fill: parent
+    // TODO: Pass data from backend
+  }
+
+  Keys.onPressed: {
+    // TODO: Trigger visibility toggle using key event (example)
+    if (event.key === Qt.Key_F12) {
+      visibile = !visible
+    }
+  }
 }
