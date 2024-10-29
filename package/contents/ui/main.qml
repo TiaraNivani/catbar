@@ -1,5 +1,5 @@
-import QtQuick 6.0
-import org.kde.plasma.core 6.0 as PlasmaCore
+import QtQuick
+import org.kde.plasma.core as PlasmaCore
 
 Plasmoid {
   id: catBar

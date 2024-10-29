@@ -1,5 +1,5 @@
-import QtQuick 6.0
-import org.kde.plasma.components 6.0 as PlasmaComponents
+import QtQuick
+import org.kde.plasma.components as PlasmaComponents
 
 Item {
     id: keyboard
