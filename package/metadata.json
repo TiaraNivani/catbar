@@ -2,7 +2,7 @@
   "KPlugin": {
     "Authors": [
       {
-        "Email": "tiara.dev@proton.me"
+        "Email": "tiara.dev@proton.me",
         "Name": "Tiara Hock"
       }
     ],
@@ -19,6 +19,7 @@
     "Website": "https://github.com/TiaraNivani/catbar"
   },
   "X-Plasma-API": "declarativeappletscript",
+  "X-Plasma-API-Minimum-Version": "6.0",
   "x-Plasma-MainScript": "ui/Main.qml",
   "X-KDE-PluginInfo-EnabledByDefault": true,
   "KPackageStructure": "Plasma/Applet"
